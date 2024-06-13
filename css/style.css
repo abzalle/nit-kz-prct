@@ -145,7 +145,7 @@ body{
 .news-card{
     padding-top: 1px;
     background-color: #E3E1ED;
-    width: 400px;
+    width: 420px;
     margin-bottom: 30px;
 }
 .news-img__wrapper{
@@ -273,4 +273,77 @@ body{
     padding: 30px 56px;
     list-style: none;
     border: 1px solid #b6c9d8;
+}
+
+label{
+    display: block
+}
+
+.contact{
+    background-color: #183C90;
+    padding-top: 120px;
+}
+
+.contact-wrapper{
+    display: flex;
+}
+
+.contact-text{
+    margin-right: 60px;
+}
+
+.contact-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.contact-text_p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 24px;
+} 
+
+label{
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 600px;
+    height: 50px;
+    background-color: #0C61A2;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+textarea{
+    width: 600px;
+    height: 100px;
+    background-color: #0C61A2;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form-btn{
+    width: 600px;
+    height: 50px;
+    background-color: #5221E6;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 120px;
 }
