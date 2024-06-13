@@ -347,3 +347,44 @@ textarea{
     color: white;
     margin-bottom: 120px;
 }
+
+.footer{
+    background-color:#E2E1ED ;
+    font-size: 15px;
+}
+
+
+
+
+.footer-wrapper{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+
+.footer-img__wrapper-logo img{
+    width: 150px;
+}
+
+.footer-item{
+    width: calc(100% / 5);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.soc{
+    margin-top: 10px;
+}
+.soc-item{
+    display: inline;
+    
+}
+
+.contact-tel{
+    width: 150px;
+}
+
+.line{
+    border-right: 1px solid #00000027;
+}
