@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -119,6 +119,7 @@ body{
     padding: 10px 30px;
     background-color: #D4D8E8;
     border-radius: 20px;
+
 }
 
 .lang-item a:active
@@ -134,9 +135,8 @@ body{
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Добавляем плавный переход для изменения фона и цвета текста */
+    transition: background-color 0.3s, color 0.3s;
   }
-
 .news-bottom{
     display: flex;
     flex-wrap: wrap;
@@ -145,7 +145,7 @@ body{
 .news-card{
     padding-top: 1px;
     background-color: #E3E1ED;
-    width: 350px;
+    width: 400px;
     margin-bottom: 30px;
 }
 .news-img__wrapper{
@@ -174,6 +174,9 @@ body{
 .news-btn{
     display: inline-block;
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: 25px;
+    margin-bottom: 30px;
     width: 308px;
     padding: 21px 106.5px;
     border: 1px solid #67598D;
@@ -185,4 +188,89 @@ body{
 .news-btn:hover{
     background-color: #b6c9d8;
     color: white;
+}
+
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px ;
+}
+
+.number{
+    font-size: 20px;
+    font-weight: 500;
+}
+.number span{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0C61A2
+}
+
+.service{
+    background-image: url('/img/Bitmap.jpg');
+    position: relative;
+}
+
+
+.service:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+
+.service-wrapper{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    color: white;
+}
+
+.service-title{
+    font-size: 26px;
+}
+
+.service-text{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+
+.partners{
+    margin-top: 100px;
+    max-width: 1920px;
+}
+
+.service-btn{
+    margin-top: 26px;
+    font-weight: bold;
+    color:#183C90;
+    z-index: 10;
+}
+.partners-title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: #0C61A2;
+    margin-bottom: 40px;
+}
+.partners-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.partners-item{
+    padding: 30px 56px;
+    list-style: none;
+    border: 1px solid #b6c9d8;
 }
